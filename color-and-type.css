@@ -140,59 +140,73 @@ td {
 }
 
 #yellow1 {
-    text-shadow: .15rem .15rem .25rem #fff54c
+  color: white;
+  text-shadow: .25rem .25rem .25rem #fff54c
 }
 
 #pink1 {
-    text-shadow: .15rem .15rem .25rem #ff8cb0
+  color: white;  
+  text-shadow: .25rem .25rem .25rem #ff8cb0
 }
 
 #blue1 {
-    text-shadow: .15rem .15rem .25rem #8cd6ff
+  color: white;  
+  text-shadow: .25rem .25rem .25rem #8cd6ff
 }
 
 #blue2 {
-    text-shadow: .15rem .15rem .25rem #2e3192
+  color: white;  
+  text-shadow: .25rem .25rem .25rem #2e3192
 }
 
 #red-orange {
-    text-shadow: .15rem .15rem .25rem #f1592a
+  color: white;  
+  text-shadow: .25rem .25rem .25rem #f1592a
 }
 
 #yellow-orange {
-    text-shadow: .15rem .15rem .25rem #fcb040
+  color: white;  
+  text-shadow: .25rem .25rem .25rem #fcb040
 }
 
 #pink2 {
-    text-shadow: .15rem .15rem .25rem #ff3575
+  color: white;  
+  text-shadow: .25rem .25rem .25rem #ff3575
 }
 
 #green1 {
-    text-shadow: .15rem .15rem .25rem #adff43
+  color: white;  
+  text-shadow: .25rem .25rem .25rem #adff43
 }
 
 #green2 {
-    text-shadow: .15rem .15rem .25rem #056839
+  color: white;  
+  text-shadow: .25rem .25rem .25rem #056839
 }
 
 #yellow-green {
-    text-shadow: .15rem .15rem .25rem #8cc63f
+  color: white;  
+  text-shadow: .25rem .25rem .25rem #8cc63f
 }
 
 #yellow2 {
-    text-shadow: .15rem .15rem .25rem #fff200
+  color: white;  
+  text-shadow: .25rem .25rem .25rem #fff200
 }
 
 #purple {
-    text-shadow: .15rem .15rem .25rem #92278f
+  color: white;  
+  text-shadow: .25rem .25rem .25rem #92278f
 }
 
 #blue-green {
-    text-shadow: .15rem .15rem .25rem #13a89e
+  color: white;  
+  text-shadow: .25rem .25rem .25rem #13a89e
 }
 
 #gray {
-    text-shadow: .15rem .15rem .25rem #7e7e7e
+  color: white;  
+  text-shadow: .25rem .25rem .25rem #7e7e7e
 }
 
 table {
@@ -203,7 +217,7 @@ table {
 }
 
 title {
-    width: 75%
+    width: 75%;
 }
 
 tbody td:first-child {
