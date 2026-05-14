@@ -1,0 +1,126 @@
+html {
+    font-size: 14px;
+}
+
+body {
+  font: 1.2rem/1.5 'Times New Roman', Verdana, Georgia, sans-serif;
+  padding: 25px;
+  background-color: lightskyblue;
+  font-size: 18px;
+}
+
+nav {
+    background: gray;
+    margin: 0 rem;
+}
+
+nav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background: #4AE0D0;
+}
+
+nav a:active {
+  color: #8465A5;
+}
+
+li.contains ul {
+  display: none;
+}
+
+li.contains:hover ul {
+  background: #82FFF2;
+  display: block;
+  position: absolute;
+}
+
+li.contains li {
+  float: left;
+  font-size: 1rem;
+}
+
+.displaymode {
+  background-color: #eee;
+  color: #8465A5;
+  cursor: pointer;
+  padding: 22px;
+  text-align: center;
+  outline: 1px;
+  font: 'Times New Roman', Verdana, Georgia, sans-serif;
+  font-size: 16px;
+}
+
+.fontsize {
+  background-color: #eee;
+  color: #8465A5;
+  cursor: pointer;
+  padding: 22px;
+  text-align: center;
+  outline: 1px;
+  font: 'Times New Roman', Verdana, Georgia, sans-serif;
+  font-size: 16px;
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #8465A5;
+  cursor: pointer;
+  padding: 15px;
+  width: 80%;
+  border-radius: 12px;
+  text-align: left;
+  outline: 1px;
+  font: 'Times New Roman', Verdana, Georgia, sans-serif;
+  font-size: 16px;
+}
+
+.active, .collapsible:hover {
+  background-color: gray;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+h4 {
+    font: 2rem/1.5 sans-serif;
+    font-variant: small-caps;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#div1 {
+    border-style: ridge;
+    border-radius: 1rem;
+    border-width: 1rem;
+    margin: 0.5rem;
+    padding: 0.2rem;
+}
+
+.box {
+    height: 100%;
+    width: fit-content;
+}
